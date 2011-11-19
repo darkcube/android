@@ -29,6 +29,8 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
+  <project path="device/htc/common" name="android_device_htc_common" remote="cm" revision="gingerbread" />
+  <project path="device/htc/desirec" name="android_device_htc_desirec" remote="TeamICS" />
   <project path="device/htc/hero" name="android_device_htc_hero" remote="TeamICS" />
   <project path="device/htc/heroc" name="android_device_htc_heroc" remote="TeamICS" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
@@ -240,6 +242,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" revision="gingerbread" />
+  <project path="vendor/htc/desirec" name="vendor_htc_desirec" remote="TeamICS" />
   <project path="vendor/htc/hero" name="vendor_htc_hero" remote="TeamICS" />
   <project path="vendor/htc/heroc" name="vendor_htc_heroc" remote="TeamICS" />
   <project path="manifest" name="manifest_ics_cm" remote="TeamICS" />

@@ -243,6 +243,7 @@
   <project path="vendor/htc/hero" name="vendor_htc_hero" remote="TeamICS" />
   <project path="vendor/htc/heroc" name="vendor_htc_heroc" remote="TeamICS" />
   <project path="manifest" name="manifest_ics_cm" remote="TeamICS" />
+  <project path="ICS_Fixes" name="ICS_Fixes" remote="TeamICS" />
 
   <project path="android" name="CyanogenMod/android" />
 </manifest>

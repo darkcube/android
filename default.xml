@@ -241,13 +241,14 @@
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
+  <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" revision="gingerbread" />
   <project path="vendor/htc/desirec" name="vendor_htc_desirec" remote="TeamICS" />
   <project path="vendor/htc/hero" name="vendor_htc_hero" remote="TeamICS" />
   <project path="vendor/htc/heroc" name="vendor_htc_heroc" remote="TeamICS" />
+  <project path="vendor/TeamICS" name="vendor_TeamICS" remote="TeamICS" />
   <project path="manifest" name="manifest_ics_cm" remote="TeamICS" />
   <project path="ICS_Fixes" name="ICS_Fixes" remote="TeamICS" />
 
-  <project path="android" name="CyanogenMod/android" />
 </manifest>

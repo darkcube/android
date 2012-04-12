@@ -259,8 +259,8 @@
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" revision="gingerbread" />
   <project path="vendor/htc/desirec" name="vendor_htc_desirec" remote="TeamICS" />
   <project path="vendor/htc/hero" name="vendor_htc_hero" remote="TeamICS" />
-  <project path="vendor/htc/heroc" name="vendor_htc_heroc" remote="TeamICS" />
   <project name="TeamICS/android_device_htc_heroc" path="device/htc/heroc" remote="gh_local" revision="ev_build" />
+  <project name="TeamICS/vendor_htc_heroc" path="vendor/htc/heroc" remote="gh_local" revision="ics" />
   <project path="vendor/TeamICS" name="vendor_TeamICS" remote="TeamICS" />
   <project path="manifest" name="manifest_ics_cm" remote="TeamICS" />
   <project path="ICS_Fixes" name="ICS_Fixes" remote="TeamICS" />

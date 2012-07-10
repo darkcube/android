@@ -38,7 +38,7 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
   <project path="device/htc/common" name="android_device_htc_common" remote="TeamICS" revision="ics" />
-  <project path="device/htc/hero" name="android_device_htc_hero" remote="TeamICS" revision="ics"/>
+  <project path="device/htc/heroc"  name="android_device_htc_heroc" remote="TeamICS" revision="jellybean" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
   <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
@@ -284,7 +284,6 @@
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" revision="gingerbread" />
   <project path="vendor/htc/desirec" name="vendor_htc_desirec" remote="TeamICS" revision="ics"/>
   <project path="vendor/htc/hero" name="vendor_htc_hero" remote="TeamICS" revision="ics"/>
-  <project name="TeamICS/android_device_htc_heroc" path="device/htc/heroc" remote="gh_local" revision="ev_build" />
   <project name="TeamICS/vendor_htc_heroc" path="vendor/htc/heroc" remote="gh_local" revision="ics" />
   <project path="vendor/TeamICS" name="vendor_TeamICS" remote="TeamICS" revision="cm9-fixes" />
   <project path="manifest" name="manifest_ics_cm" remote="TeamICS" />

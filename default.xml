@@ -2,8 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" 
-/>
+           fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
            fetch="git://github.com/" 
@@ -13,11 +12,11 @@
            fetch="git://github.com/Evervolv/"
 	   review="review.evervolv.com"/>
   
-<remote name="gh_local"
+  <remote name="gh_local"
           fetch="https://github.com/" />
 
-  <remote  name="TeamICS"
-           fetch="git://github.com/TeamICS/" />
+  <remote name="darkcube"
+          fetch="git://github.com/darkcube/" />
 
   <default revision="refs/heads/jellybean"
            remote="github"
@@ -37,8 +36,6 @@
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish"/>
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
-  <project path="device/htc/common" name="android_device_htc_common" remote="TeamICS" revision="ics" />
-  <project path="device/htc/heroc"  name="android_device_htc_heroc" remote="TeamICS" revision="jellybean" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
   <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
@@ -191,7 +188,6 @@
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="TeamICS" revision="ics"/>
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" revision="ics" />
@@ -282,12 +278,7 @@
   <project path="system/su" name="CyanogenMod/android_system_su" revision="ics" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" revision="gingerbread" />
-  <project path="vendor/htc/desirec" name="vendor_htc_desirec" remote="TeamICS" revision="ics"/>
-  <project path="vendor/htc/hero" name="vendor_htc_hero" remote="TeamICS" revision="ics"/>
-  <project name="TeamICS/vendor_htc_heroc" path="vendor/htc/heroc" remote="gh_local" revision="ics" />
-  <project path="vendor/TeamICS" name="vendor_TeamICS" remote="TeamICS" revision="cm9-fixes" />
-  <project path="manifest" name="manifest_ics_cm" remote="TeamICS" />
-  <project path="ICS_Fixes" name="ICS_Fixes" remote="TeamICS" revision="ics"/>
+  <project path="manifest" name="android" remote="darkcube" />
   <project path="vendor/ev" name="android_vendor_ev" remote="ev-github" revision="ics"/>
 
 </manifest>

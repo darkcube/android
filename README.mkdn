@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the TeamICS trees, use a command like this:
 
-    repo init -u git://github.com/TeamICS/manifest_ics_cm.git -b jellybean
+    repo init -u git://github.com/darkcube/android.git -b jellybean
 
 Then to sync up:
 
